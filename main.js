@@ -37,7 +37,7 @@ function startAdapter(options) {
         obj && processMessage(obj));
 
     adapter.on('ready', () => {
-        adapter.config.pass = decrypt('Zgfr56gFe87jJOM', adapter.config.pass);
+        adapter.config.pass = "a"//decrypt('Zgfr56gFe87jJOM', adapter.config.pass);
         adapter.config.maxTopicLength = adapter.config.maxTopicLength || 100;
         if (adapter.config.ssl && adapter.config.type === 'server') {
             // Load certificates
