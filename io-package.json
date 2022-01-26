@@ -1,0 +1,76 @@
+{
+	"common": {
+		"name": "mqtt_improved",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "mqtt_improved",
+		"titleLang": {
+			"en": "mqtt_improved",
+			"de": "mqtt_improved",
+			"ru": "mqtt_improved",
+			"pt": "mqtt_improved",
+			"nl": "mqtt_verbeterd",
+			"fr": "mqtt_amélioré",
+			"it": "mqtt_migliorato",
+			"es": "mqtt_mejorado",
+			"pl": "mqtt_ulepszony",
+			"zh-cn": "mqtt_improved"
+		},
+		"desc": {
+			"en": "improved mqtt",
+			"de": "verbesserte mqtt",
+			"ru": "улучшенный mqtt",
+			"pt": "mqtt melhorado",
+			"nl": "verbeterde mqtt",
+			"fr": "mqtt amélioré",
+			"it": "mqtt migliorato",
+			"es": "mqtt mejorado",
+			"pl": "ulepszony mqtt",
+			"zh-cn": "改进的MQTT"
+		},
+		"authors": [
+			"huberto <hubert.schusch@gmail.com>"
+		],
+		"keywords": [
+			"mqtt"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "mqtt_improved.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/hubertoschusch/ioBroker.mqtt_improved/main/admin/mqtt_improved.png",
+		"readme": "https://github.com/hubertoschusch/ioBroker.mqtt_improved/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "communication",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

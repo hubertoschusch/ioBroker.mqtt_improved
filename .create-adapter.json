@@ -1,0 +1,41 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "mqtt_improved",
+	"title": "mqtt_improved",
+	"description": "improved mqtt",
+	"keywords": [
+		"mqtt"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "communication",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "push",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"releaseScript": "yes",
+	"devServer": "yes",
+	"devServerPort": 8081,
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "huberto",
+	"authorGithub": "hubertoschusch",
+	"authorEmail": "hubert.schusch@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"defaultBranch": "main",
+	"license": "MIT License",
+	"dependabot": "no",
+	"creatorVersion": "2.0.2"
+}
