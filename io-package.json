@@ -14,6 +14,10 @@
 				"es": "Versión inicial",
 				"pl": "Pierwsze wydanie",
 				"zh-cn": "首次出版"
+			},
+			"0.0.2": {
+				"en": "added default value for subscriber pattern",
+				"de": "Standardwert fürs subscriber pattern hinzugefügt"
 			}
 		},
 		"title": "mqtt_improved",
@@ -68,8 +72,7 @@
 		]
 	},
 	"native": {
-		"option1": true,
-		"option2": "42"
+		"patterns": "mqtt/#"
 	},
 	"objects": [],
 	"instanceObjects": []
