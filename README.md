@@ -101,7 +101,7 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
 * Pattern for publishing all states is now automatically subscribed.
 
 ### 0.1.0 (2022-01-31)
-### **WORK IN PROGRESS**
+### 0.1.1 (2022-01-31)
 <!--
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**

@@ -1,6 +1,6 @@
 {
   "name": "iobroker.mqtt_improved",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "improved mqtt",
   "author": {
     "name": "huberto",
