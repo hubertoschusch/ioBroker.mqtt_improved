@@ -18,6 +18,10 @@
             "0.0.2": {
                 "en": "added default value for subscriber pattern",
                 "de": "Standardwert fürs subscriber pattern hinzugefügt"
+            },
+            "0.1.0": {
+                "en": "added pattern for broadcasting on client",
+                "de": "Pattern fürs client broadcasting hinzugefügt"
             }
         },
         "title": "mqtt_improved",
@@ -72,7 +76,8 @@
         ]
     },
     "native": {
-        "patterns": "mqtt/#"
+        "patterns": "mqtt/#",
+        "publishAllPattern": "broadcast"
     },
     "objects": [],
     "instanceObjects": []
