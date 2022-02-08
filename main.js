@@ -74,12 +74,12 @@ function startAdapter(options) {
             states[id] = state;
 
             // If value really changed
-            //if (!adapter.config.onchange || oldVal !== state.val || oldAck !== state.ack) {
+            if (!adapter.config.onchange || oldVal !== state.val || oldAck !== state.ack) {
                 // If SERVER
                 server && server.onStateChange(id, state);
                 // if CLIENT
                 client && client.onStateChange(id, state);
-            //}
+            }
         }
     });
     return adapter;

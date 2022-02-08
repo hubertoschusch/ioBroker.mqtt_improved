@@ -34,6 +34,12 @@
             "0.1.0": {
                 "en": "added pattern for broadcasting on client",
                 "de": "Pattern fürs client broadcasting hinzugefügt"
+            },
+            "0.1.1": {
+                "en": "pattern for publishing all states is now automatically subscribed"
+            }, 
+            "0.1.2": {
+                "en": "fix for publishing all states pattern"
             }
         },
         "title": "mqtt_improved",
