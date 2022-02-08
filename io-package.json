@@ -1,19 +1,10 @@
 {
     "common": {
         "name": "mqtt_improved",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "news": {
             "0.1.1": {
-                "en": "<!--\n\tPlaceholder for the next version (at the beginning of the line):\n\t### **WORK IN PROGRESS**\n-->",
-                "de": "<!--\nPlatzhalter für die nächste Version (am Zeilenanfang):\n### **IN ARBEIT**\n-->",
-                "ru": "<!--\nЗаполнитель для следующей версии (в начале строки):\n### **РАБОТА В ПРОЦЕССЕ**\n-->",
-                "pt": "<!--\nEspaço reservado para a próxima versão (no início da linha):\n### **TRABALHO EM PROGRESSO**\n-->",
-                "nl": "<!--\nTijdelijke aanduiding voor de volgende versie (aan het begin van de regel):\n### **LOPENDE WERKZAAMHEDEN**\n-->",
-                "fr": "<!--\nEspace réservé pour la prochaine version (au début de la ligne) :\n### **TRAVAIL EN COURS**\n-->",
-                "it": "<!--\nSegnaposto per la versione successiva (all'inizio della riga):\n### **LAVORI IN CORSO**\n-->",
-                "es": "<!--\nMarcador de posición para la próxima versión (al principio de la línea):\n### **TRABAJO EN PROGRESO**\n-->",
-                "pl": "<!--\nSymbol zastępczy dla następnej wersji (na początku wiersza):\n### **PRACA W TOKU**\n-->",
-                "zh-cn": "<!--\n下一个版本的占位符（在行首）：\n＃＃＃ **工作正在进行中**\n-->"
+                "en": "pattern for publishing all states is now automatically subscribed"
             },
             "0.0.1": {
                 "en": "initial release",
@@ -35,9 +26,6 @@
                 "en": "added pattern for broadcasting on client",
                 "de": "Pattern fürs client broadcasting hinzugefügt"
             },
-            "0.1.1": {
-                "en": "pattern for publishing all states is now automatically subscribed"
-            }, 
             "0.1.2": {
                 "en": "fix for publishing all states pattern"
             }
